@@ -1,0 +1,86 @@
+# ===== Pascal =====
+*.o
+*.ppu
+*.dcu
+*.compiled
+*.exe
+*.bak
+*.log
+Pascal/*.bat
+
+# ===== C / C++ =====
+*.out
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.pch
+*.pdb
+*.ilk
+
+# ===== C# (.NET) =====
+*.dll
+*.exe
+*.pdb
+*.obj
+*.cache
+*.mdb
+
+
+# Build results
+С#/bin/
+С#/obj/
+С#/TestResults/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# ===== Java =====
+*.class
+*.jar
+*.war
+*.ear
+
+# Build dirs
+Java/target/
+Java/build/
+.gradle/
+.idea/
+
+# ===== Kotlin (Gradle/IntelliJ) =====
+*.class
+*.jar
+*.kotlin_module
+.idea/
+.gradle/
+Kotlin/build/
+
+# ===== Python =====
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg
+*.egg-info/
+Python/dist/
+Python/build/
+Python/env/
+Python/venv/
+Python/.venv/
+Python/pip-log.txt
+
+# ==== OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===== Editor/IDE =====
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
+.vscode/
+.history/
