@@ -1,8 +1,6 @@
 //пакет класу Scanner, використаного для вводу даних
 import java.util.*;
 //класичний компілятор пакет lang підключає автоматично
-import java.lang.*;//потрібно лише для ideone.com 
-import java.io.*;// пакет класів вводу-виводу
  
 class Task30 {
   public static void main (String[] args) {
@@ -21,5 +19,6 @@ Math, тому викликаються від його імені*/
     r = Math.pow(r3, 1.0/3.0);
 //вивід результату
     System.out.println("Радіус кулі " + r);
+    scanner.close();
   }
 }
