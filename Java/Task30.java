@@ -1,7 +1,6 @@
 //пакет класу Scanner, використаного для вводу даних
 import java.util.*;
-//класичний компілятор пакет lang підключає автоматично
- 
+
 class Task30 {
   public static void main (String[] args) {
     final double PI = 3.141593; 
@@ -18,7 +17,7 @@ class Task30 {
 Math, тому викликаються від його імені*/
     r = Math.pow(r3, 1.0/3.0);
 //вивід результату
-    System.out.println("Радіус кулі " + r);
+    System.out.println("Радiус кулi " + r);
     scanner.close();
   }
 }
