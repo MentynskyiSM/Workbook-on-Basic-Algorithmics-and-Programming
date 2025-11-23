@@ -1,9 +1,8 @@
 import java.util.*;
-
-public class SessionRating {
+public class Task540 {
     public static void main(String[] args) {
         // список навчальних предметів
-        List<String> subjects = Arrays.asList("Алгеба", "Хімія", "Фізика", "Інформатика");
+        List<String> subjects = Arrays.asList("Алгебра", "Хімія", "Фізика", "Інформатика");
         // список студентів
         List<String> students = new ArrayList<>(Arrays.asList("Вовк", "Заєць", "Ведмідь", "Лис", "Лось"));
         // результати сесії: студент -> (предмет -> оцінка)
