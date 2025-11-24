@@ -1,4 +1,3 @@
-import array
 size = 6
 M = [[1,2,3,4,5,6],
      [1,3,5,7,9,1],
@@ -10,7 +9,7 @@ print('Бажаєте ввести матрицю з клавіатури?(та�
 choise = input()
 if choise == 'так':
     for k in range(size):
-        tmp = array.array('i')
+        tmp = []
         for i in range(size):
             tmp.append(int(input()))
         M[k] = tmp
