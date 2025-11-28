@@ -20,5 +20,6 @@ public class Task510 {
     print_posix(7, m);
     System.out.print("(7) = ");
     System.out.println(m + "(10)");
+    scanner.close();
   }
 }

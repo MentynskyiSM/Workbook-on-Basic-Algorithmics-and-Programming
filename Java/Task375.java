@@ -43,5 +43,6 @@ public class Task375 {
       }
       System.out.println();
     }
+    scanner.close();
   }
 }

@@ -33,6 +33,7 @@ public class Task495 {
       System.out.println("Гіпотезу Гольдбаха" + 
                                         " підтверджено");
     }
+    scanner.close();
   }
 
     // для "внутрішнього" використання в методі main
