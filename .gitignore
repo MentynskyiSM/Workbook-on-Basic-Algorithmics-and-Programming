@@ -67,6 +67,7 @@ Kotlin/build/
 *.pyo
 *.pyd
 *.db
+*.csv
 
 __pycache__/
 *.egg
