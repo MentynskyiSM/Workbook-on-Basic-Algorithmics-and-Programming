@@ -6,6 +6,7 @@
 *.exe
 *.bak
 *.log
+*.db
 Pascal/*.bat
 
 # ===== C / C++ =====
@@ -19,6 +20,7 @@ Pascal/*.bat
 *.pch
 *.pdb
 *.ilk
+*.db
 
 # ===== C# (.NET) =====
 *.dll
@@ -27,6 +29,7 @@ Pascal/*.bat
 *.obj
 *.cache
 *.mdb
+*.db
 
 
 # Build results
@@ -42,6 +45,7 @@ project.fragment.lock.json
 *.jar
 *.war
 *.ear
+*.db
 
 # Build dirs
 Java/target/
@@ -53,6 +57,7 @@ Java/build/
 *.class
 *.jar
 *.kotlin_module
+*.db
 .idea/
 .gradle/
 Kotlin/build/
@@ -61,6 +66,8 @@ Kotlin/build/
 *.pyc
 *.pyo
 *.pyd
+*.db
+
 __pycache__/
 *.egg
 *.egg-info/
