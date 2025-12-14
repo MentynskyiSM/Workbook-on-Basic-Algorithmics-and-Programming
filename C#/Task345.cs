@@ -4,7 +4,7 @@ namespace Task345
 {
   class Program
   {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
       int []A, B;
       int sizeA, sizeB;

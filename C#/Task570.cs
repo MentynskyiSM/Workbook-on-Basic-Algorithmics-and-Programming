@@ -2,12 +2,12 @@ using System;
 using System.IO;
 using System.Text;
 
-// namespace Task540
-// {
-//   class Program
-//   {
-//     static void Main(string[] args)
-//     {
+namespace Task540
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
       string FilePath = "Task300.java";
       using (FileStream stream =
             new FileStream(FilePath, FileMode.Open))
@@ -78,6 +78,6 @@ using System.Text;
                   "{codePercentage} % тексту файла");
         }
       }
-//     }
-//   }
-// }
+    }
+  }
+}

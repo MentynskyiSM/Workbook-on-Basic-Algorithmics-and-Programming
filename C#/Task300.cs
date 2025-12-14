@@ -3,7 +3,7 @@ namespace Task300
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             // оглошуємо масив та створюємо його
             int [] visits = new int [24]; 

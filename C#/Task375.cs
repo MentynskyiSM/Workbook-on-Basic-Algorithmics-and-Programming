@@ -2,7 +2,7 @@ using System;
 
 class Program
 {
-  static void Main(string[] args)
+  public static void Main(string[] args)
   {
     const int size = 6;
     int[,] M = new int[,]{ {1, 2, 3, 4, 5, 6},
